@@ -1,0 +1,50 @@
+server:
+  port: ${PORT:0}
+
+# Habilitando o relatório de autoconfiguração para diagnóstico
+debug: true
+
+spring:
+  application:
+    name: hr-payroll
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    # Logs detalhados para diagnóstico
+    org.springframework.cloud.loadbalancer: DEBUG
+    org.springframework.cloud.openfeign: DEBUG
+    io.github.resilience4j: DEBUG
+
+# Habilitando o Circuit Breaker para o Feign
+feign:
+  circuitbreaker:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 10000     # Tempo máximo de conexão (10 segundos)
+        readTimeout: 20000        # Tempo máximo de leitura (20 segundos)
+
+# Configurações Resilience4j (equivalente moderno do Hystrix)
+resilience4j:
+  circuitbreaker:
+    instances:
+      default:
+        register-health-indicator: true
+        sliding-window-size: 10
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 20s  # Tempo de espera após abrir o circuito
+        permitted-number-of-calls-in-half-open-state: 3
+  timelimiter:
+    instances:
+      default:
+        timeout-duration: 20s  # Tempo máximo de execução antes do fallback
