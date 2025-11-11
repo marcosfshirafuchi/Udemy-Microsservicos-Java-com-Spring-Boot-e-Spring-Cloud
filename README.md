@@ -21,7 +21,17 @@ Versões: Java 11 e Spring Boot 2.3.4! Aprenda Feign, Ribbon, Hystrix, OAuth, JW
 9.9;
 
 ## O que você aprenderá
-<center> <a href="https://ibb.co/p60BNrnq"><img src="https://i.ibb.co/Gfx4G3Fm/imagem-1.png" alt="imagem-1" border="0"></a></center><br><br>
+<center> 
+  <a href="https://ibb.co/dJkqps3d"><img src="https://i.ibb.co/XkFg5fdh/2-O-sistema-que-vamos-desenvolver-Parte-01.png" alt="2-O-sistema-que-vamos-desenvolver-Parte-01" border="0"></a><br><br>
+  <a href="https://ibb.co/p60BNrnq"><img src="https://i.ibb.co/Gfx4G3Fm/imagem-1.png" alt="imagem-1" border="0"></a><br>
+  <a href="https://ibb.co/rKypZdvZ"><img src="https://i.ibb.co/RGH6Cj7C/2-O-sistema-que-vamos-desenvolver-Parte-03.png" alt="2-O-sistema-que-vamos-desenvolver-Parte-03" border="0"></a><br><br>
+  <a href="https://ibb.co/7JWQ78hc"><img src="https://i.ibb.co/nscBhZp2/2-O-sistema-que-vamos-desenvolver-Parte-04.jpg" alt="2-O-sistema-que-vamos-desenvolver-Parte-04" border="0"></a><br><br>
+  <a href="https://ibb.co/mChJMTDN"><img src="https://i.ibb.co/gMtyB9j4/2-O-sistema-que-vamos-desenvolver-Parte-05.png" alt="2-O-sistema-que-vamos-desenvolver-Parte-05" border="0"></a><br><br>
+  <a href="https://ibb.co/Xr2WRJrY"><img src="https://i.ibb.co/DHV12KHr/2-O-sistema-que-vamos-desenvolver-Parte-06.png" alt="2-O-sistema-que-vamos-desenvolver-Parte-06" border="0"></a><br><br>
+  <a href="https://ibb.co/Y4MKTPLg"><img src="https://i.ibb.co/GfL13n5m/2-O-sistema-que-vamos-desenvolver-Parte-07.jpg" alt="2-O-sistema-que-vamos-desenvolver-Parte-07" border="0"></a><br><br>
+  <a href="https://ibb.co/YTDYSJ4V"><img src="https://i.ibb.co/dJb1vXsH/2-O-sistema-que-vamos-desenvolver-Parte-08.jpg" alt="2-O-sistema-que-vamos-desenvolver-Parte-08" border="0"></a>
+  </center>
+  <br><br>
 
 - Uma introdução a algumas das principais ferramentas do Spring Cloud para estruturação de um sistema em microsserviços
 - Chamadas de API entre microsserviços por meio de clientes Feign
@@ -40,9 +50,14 @@ Versões: Java 11 e Spring Boot 2.3.4! Aprenda Feign, Ribbon, Hystrix, OAuth, JW
 - Seção Bônus
 
 
+
 ## Link do curso:
 
 https://www.udemy.com/course/microsservicos-java-spring-cloud/?couponCode=KEEPLEARNINGBR
+
+## Link do repositório dos arquivos de configuração
+<b>MS COURSE CONFIGS:</b><br><br>
+https://github.com/marcosfshirafuchi/ms-course-configs
 
 ## Criando e testando containers Docker
 
